@@ -1,0 +1,29 @@
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+repositories {
+    mavenCentral()
+}
+buildscript {
+    repositories {mavenCentral()}
+    dependencies { classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.19")}
+}
+ext{
+    serenityVersion = '2.0.17'
+    serenityCucumberVersion = '1.9.19'
+}
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+dependencies {
+    implementation(group: 'jline', name: 'jline', version: '2.13')
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version:'1.6.1'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version:'3.17'
+    implementation group: 'com.codoid.products', name: 'fillo', version:'1.18'
+    testImplementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    testImplementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
+    testImplementation 'junit:junit:4.12'
+}
