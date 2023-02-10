@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3beb390-24a5-4245-a811-9167c5af3fd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterface/DemoSerenityUserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/DemoSerenityRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/DemoSerenityStepsDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/NumberOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/TheNumberOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/DemoSerenityUserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/DemoSerenityUserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsdefinition/DemoSerenityStepsDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsdefinition/DemoSerenityStepsDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/demo_serenity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/demo_serenity.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleja/Documents/Proyectos/Choucair&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_directory_selection": "C:/Users/aleja/Documents/Proyectos/Choucair/src/main/java/tasks",
+    "last_opened_file_path": "C:/Users/aleja/Documents/Proyectos/Choucair"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tasks" />
+      <recent name="questions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleja\Documents\Proyectos\Choucair" />
     </key>
