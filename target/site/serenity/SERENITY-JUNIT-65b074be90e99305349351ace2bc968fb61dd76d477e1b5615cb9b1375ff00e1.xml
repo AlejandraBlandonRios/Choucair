@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Manage Orders in the page of demo serenity." skipped="0" tests="2" time="35.25" timestamp="2023-02-11 11:45:58"><testcase name="Create an order from the Dashboard"/><testcase name="Create and ship an order from the Dashboard"/></testsuite>

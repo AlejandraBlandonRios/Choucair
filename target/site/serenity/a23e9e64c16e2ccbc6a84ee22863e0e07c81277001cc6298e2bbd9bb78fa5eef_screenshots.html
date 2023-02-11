@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="00e8815255baf437e5ca487c7fe3b76f19dc49ad132792855007b3a931d1baf3.html">Manage Orders In The Page Of Demo Serenity.</a></span>
+                > <span class="truncate-60"><a
+                    href="a23e9e64c16e2ccbc6a84ee22863e0e07c81277001cc6298e2bbd9bb78fa5eef.html">Create and ship an order from the Dashboard </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-02-2023 11:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Manage Orders In The Page Of Demo Serenity. </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Create and ship an order from the Dashboard
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="f042f500c306902e948877adc426c891cd5fa06e2357ee664ea6bfa6e951b08f.png" title="Given user credentials are in the page" width="1920"/>
+                <img src="f042f500c306902e948877adc426c891cd5fa06e2357ee664ea6bfa6e951b08f.png" title="user opens the Demo serenity user interface" width="1920"/>
+                <img src="ca3d9caf82da6dde8516702aa021f1b296fea44caca20846681be4a8f179e561.png" title="When user creates a new order" width="1920"/>
+                <img src="921ebe1296be5716eea4542426bdbd13f59fa7e78136ab0655d4decabb1ce0d7.png" title="User create" width="1920"/>
+                <img src="ffa8e134594eb1870d4ff189c3eab76c56e7db4d4b7ef63d286aeb56fea52f4e.png" title="user clicks on SigIn button" width="1920"/>
+                <img src="d07dddaeb665803112fab4b64d03bcbe46483e04ef556ab4ccd860e57fae2950.png" title="user clicks on StartSharp button" width="1920"/>
+                <img src="c97dc473998c04ed5ee57670ce85e8c3fd8d2e2f15ea9de7d2b79534da8f1d20.png" title="user clicks on More info button " width="1920"/>
+                <img src="e698e1bd8e0b1cd66adfbf3c3f7dd678eddeba4ec687e1b44739dcd94f6b41d8.png" title="user clicks on More info button " width="1920"/>
+                <img src="fc64119fadacd69e42475a0fc7ce730f2c1099bcc5347970a2acb4909e9ba55f.png" title="user clicks on New order button " width="1920"/>
+                <img src="f25cddaaf79cbfa8f6b0ad42088afccc29298cc935474d6dc2e66836b59a560e.png" title="user clicks on New order button " width="1920"/>
+                <img src="f25cddaaf79cbfa8f6b0ad42088afccc29298cc935474d6dc2e66836b59a560e.png" title="user clicks on Customer field" width="1920"/>
+                <img src="aaeb392530b42b80bb78987d08b8d669e1bbb568678c4c6702147ce8729a5ced.png" title="user clicks on Customer field" width="1920"/>
+                <img src="aaeb392530b42b80bb78987d08b8d669e1bbb568678c4c6702147ce8729a5ced.png" title="user enters 'Alfreds' into Customer input" width="1920"/>
+                <img src="47d7a14f8728652068f1af30ffda1c961c5582790ee3033ad89148ae06ff8797.png" title="user enters 'Alfreds' into Customer input" width="1920"/>
+                <img src="47d7a14f8728652068f1af30ffda1c961c5582790ee3033ad89148ae06ff8797.png" title="user enters '' into Customer input" width="1920"/>
+                <img src="fbcdf3f3a829a5a1ad2bf841e7995f5e1e8ff4ee15f52dd972f7d167d358a3d5.png" title="user enters '' into Customer input" width="1920"/>
+                <img src="fbcdf3f3a829a5a1ad2bf841e7995f5e1e8ff4ee15f52dd972f7d167d358a3d5.png" title="user enters '01/02/2023' into Order date field" width="1920"/>
+                <img src="ea74ace92620605934300b8201015a93d5f2181eeecc1097f34f9286016f1c14.png" title="user enters '01/02/2023' into Order date field" width="1920"/>
+                <img src="980406e62539b72dc27f736c54949d0e95aac060218deb9a823cfb5585f18363.png" title="user clicks on Save button" width="1920"/>
+                <img src="b49f49ebdbfa2bb9c703a83e90ec7054a8d9c781ae0fd0295d3b34de29553953.png" title="user clicks on Save button" width="1920"/>
+                <img src="fc64119fadacd69e42475a0fc7ce730f2c1099bcc5347970a2acb4909e9ba55f.png" title="user clicks on Dashboard menu" width="1920"/>
+                <img src="f12a3cf90c780420d23b89dcabd518ad5847a00d8460bd70581e52aa72b934d7.png" title="user clicks on Dashboard menu" width="1920"/>
+                <img src="39182a15536143304ace701cc3d857a7e5c8b23a23fefac0445b4305825d3ad4.png" title="And ship the order" width="1920"/>
+                <img src="68871d90f1b191698b744d3d4668063c9e2aa4998de99cf6136ef8357debd99e.png" title="And ship the order" width="1920"/>
+                <img src="39182a15536143304ace701cc3d857a7e5c8b23a23fefac0445b4305825d3ad4.png" title="User ship" width="1920"/>
+                <img src="106dd9e66d13d035c82a727fcece652fc790ef6057551cb35755fa937431f89e.png" title="User ship" width="1920"/>
+                <img src="39182a15536143304ace701cc3d857a7e5c8b23a23fefac0445b4305825d3ad4.png" title="user clicks on More info button " width="1920"/>
+                <img src="e698e1bd8e0b1cd66adfbf3c3f7dd678eddeba4ec687e1b44739dcd94f6b41d8.png" title="user clicks on More info button " width="1920"/>
+                <img src="7c29340c9b45e18bb42ae15341cc9130879d17910e7489642ef4524aba9359e2.png" title="user clicks on First order item" width="1920"/>
+                <img src="78bb4511d0a8ee96ef7e1710fc8d3e38011d2a59ed13ab6d421253277037af35.png" title="user clicks on Shipping tab" width="1920"/>
+                <img src="379321e7f6970bbd8febe80239c4ec7aecd94b9b5c3464d030ad445d702a201e.png" title="user clicks on Shipping tab" width="1920"/>
+                <img src="05e7b2b09aee76f17343327ce873eb0dbe3ace41f642c437adb9bf1e26096bd6.png" title="user enters '09/02/2023' into Shipped date field" width="1920"/>
+                <img src="1436f00b91e4fee4118c73ee1f333b097a68feb40111e8fe8779185906516f98.png" title="user enters '09/02/2023' into Shipped date field" width="1920"/>
+                <img src="7078a7d1bde91f42899dd94e9f235715ab1208c3886385f535c170cdba49b156.png" title="user clicks on Save button" width="1920"/>
+                <img src="32cad6cc997922fa920e4c61f62adfa8ef6bbab813e71f2191c2c638aa4917ba.png" title="user clicks on Save button" width="1920"/>
+                <img src="7c29340c9b45e18bb42ae15341cc9130879d17910e7489642ef4524aba9359e2.png" title="user clicks on Dashboard menu" width="1920"/>
+                <img src="de4736e635685e9b9768a606e8c7f924736fb6f4f6680c261e6a1fbf817e3861.png" title="user clicks on Dashboard menu" width="1920"/>
+                <img src="a968e168f61aa0128b165f83f73e8d623b1b87187fec0842b64f7b357cedde1d.png" title="Then the number of orders should not change" width="1920"/>
+                <img src="c97dc473998c04ed5ee57670ce85e8c3fd8d2e2f15ea9de7d2b79534da8f1d20.png" title="Then the number of orders should not change" width="1920"/>
+                <img src="c97dc473998c04ed5ee57670ce85e8c3fd8d2e2f15ea9de7d2b79534da8f1d20.png" title="Then the number of: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.12</span>
+</div>
+</body>
+</html>
